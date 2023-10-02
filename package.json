@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "mapbox-gl": "^2.15.0",
+    "react-leaflet": "^4.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "react-scripts start",
+    "build": "react-scripts build"
+  }
+}
