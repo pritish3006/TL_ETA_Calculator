@@ -44,7 +44,7 @@ export default function App() {
     map.current.on('load', () => {
         // Load an external image for the traffic light symbol
         map.current.loadImage(
-            'https://www.shutterstock.com/image-vector/traffic-light-2-552793837', // image URL
+            'https://raw.githubusercontent.com/pritish3006/TL_ETA_Calculator/main/client/public/tl.png?token=GHSAT0AAAAAACHTKAJJCSEM65JK4X5AERFYZI2QLPQ', // image URL
             (error, image) => {
                 if (error) throw error;
 
@@ -64,7 +64,7 @@ export default function App() {
                     source: 'traffic-lights',
                     layout: {
                         'icon-image': 'traffic-light',
-                        'icon-size': 0.25
+                        'icon-size': 0.05
                     }
                 });
             }
